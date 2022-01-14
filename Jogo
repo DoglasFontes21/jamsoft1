@@ -1,0 +1,65 @@
+using System;
+					
+public class Program
+	
+{
+	const string M = "Sr.";
+	const string F = "Srª.";
+	
+	public static void Main()
+	{		
+		//int [] nome = new int[4];
+		
+
+		string nome, sexo;
+		int idade;
+	
+		//NOME
+		Console.WriteLine("Informe o nome: ");
+		nome = Console.ReadLine();
+		
+		//SEXO
+		Console.WriteLine("Informe o sexo: M = Masculino | F = Feminino");
+		sexo = Console.ReadLine();
+		
+		//IDADE		
+		Console.WriteLine("Informe a idade: ");
+		idade = Convert.ToInt32(Console.ReadLine());
+		
+		if (idade 5<14)
+		{	
+			if (sexo == "M")
+			{
+				Console.Write(M + " " + nome + " Vacina Sim ");
+			}				
+			else
+			{			
+				Console.Write(F + " " + nome + " Vacina Sim");	
+			}
+		}
+    Else if (idade = 30 =< 14)
+		{	
+			if (sexo == "M")
+			{
+				Console.Write(M + " " + nome + " Terceira Dose Ok");
+			}				
+			else
+			{			
+				Console.Write(F + " " + nome + " Terceira Dose Ok");	
+			}
+		}
+		if (idade 120 < )
+		{
+			if (sexo == "M")
+			{
+				Console.Write(M + " " + nome + " Deus Ok");
+			}	
+			else
+			{	
+				Console.Write(F + " " + nome + " Deus Ok");	
+			}
+		
+		}	
+		
+	}
+}
